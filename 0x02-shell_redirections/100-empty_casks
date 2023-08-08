@@ -1,2 +1,2 @@
-#!/bin/tasks
-ls -a | find . -empty
+#!/bin/bash
+ls -a | find . -empty | tr -d ^./
