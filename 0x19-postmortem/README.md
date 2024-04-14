@@ -1,6 +1,6 @@
 
 # Postmortem Report: Outage Incident - Website Downtime
-![Outage]([http://url/to/img.png](https://www.bing.com/images/create/funny-postmortem-outage-meme/1-661c618fa4eb4bd5b5cb64d7c2c875c6?id=WNYwitKQiPfleuEOvpvZBA%3d%3d&view=detailv2&idpp=genimg&idpclose=1&thId=OIG1.rCv3F4_8JF7QM6h7Wybv&frame=sydedg&FORM=SYDBIC))
+![Outage](https://th.bing.com/th/id/OIG1.rCv3F4_8JF7QM6h7Wybv?w=1024&h=1024&rs=1&pid=ImgDetMain)
 ## Issue Summary:
 
 # Duration: The outage occurred on April 15, 2024, from 10:00 AM to 12:30 PM (UTC).
