@@ -1,15 +1,15 @@
 
-Postmortem Report: Outage Incident - Website Downtime
+# Postmortem Report: Outage Incident - Website Downtime
+![Outage]([http://url/to/img.png](https://www.bing.com/images/create/funny-postmortem-outage-meme/1-661c618fa4eb4bd5b5cb64d7c2c875c6?id=WNYwitKQiPfleuEOvpvZBA%3d%3d&view=detailv2&idpp=genimg&idpclose=1&thId=OIG1.rCv3F4_8JF7QM6h7Wybv&frame=sydedg&FORM=SYDBIC))
+## Issue Summary:
 
-Issue Summary:
+# Duration: The outage occurred on April 15, 2024, from 10:00 AM to 12:30 PM (UTC).
 
-Duration: The outage occurred on April 15, 2024, from 10:00 AM to 12:30 PM (UTC).
+# Impact: The outage affected the availability of our website, resulting in slow loading times and intermittent errors for users accessing our services. Approximately 30% of our users experienced service disruptions during this time.
 
-Impact: The outage affected the availability of our website, resulting in slow loading times and intermittent errors for users accessing our services. Approximately 30% of our users experienced service disruptions during this time.
+# Root Cause: The root cause of the outage was identified as a database connectivity issue resulting from a misconfiguration in the database connection pool settings.
 
-Root Cause: The root cause of the outage was identified as a database connectivity issue resulting from a misconfiguration in the database connection pool settings.
-
-Timeline:
+## Timeline:
 
 Detection Time: The issue was detected at 10:00 AM (UTC) when monitoring alerts indicated a spike in error rates and latency on our website.
 
@@ -23,13 +23,13 @@ Escalation: As the issue persisted, it was escalated to the database administrat
 
 Resolution: The issue was resolved by reconfiguring the database connection pool settings to ensure optimal connection handling and resource utilization. This adjustment restored normal database connectivity and resolved the website slowdowns.
 
-Root Cause and Resolution:
+## Root Cause and Resolution:
 
 Root Cause: The root cause of the issue was traced to a misconfiguration in the database connection pool settings, leading to exhausted database connections and subsequent service degradation.
 
 Resolution: The issue was resolved by adjusting the database connection pool settings to optimize connection pooling and resource allocation. This prevented connection exhaustion and restored normal database connectivity, resolving the website slowdowns.
 
-Corrective and Preventative Measures:
+## Corrective and Preventative Measures:
 
 Improvement Areas:
 Enhance monitoring capabilities to detect database connection issues proactively.
