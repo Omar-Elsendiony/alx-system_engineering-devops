@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+# write indefinitely till SIGTERM
 trap "echo 'I am invincible!!!'" SIGTERM
 
 while true; do
