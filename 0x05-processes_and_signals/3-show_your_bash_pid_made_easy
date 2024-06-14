@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Show how the bash id is made easy to find
+pgrep -l bash
